@@ -1,0 +1,28 @@
+{
+  "name": "penn-stack",
+  "version": "1.0.0",
+  "description": "Practica app full stack con Next Js, Node Js, Express y Postgres",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Next",
+    "Node",
+    "Express",
+    "Postgres"
+  ],
+  "author": "Lukas Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
